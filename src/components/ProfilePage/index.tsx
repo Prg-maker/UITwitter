@@ -53,6 +53,8 @@ const ProfilePage: React.FC = () => {
         </Fallowage>
       </ProfileData>
 
+      <Feed/>
+
     </Container>
   );
 }
