@@ -1,15 +1,17 @@
 import React from 'react';
 
-import { 
+import {
   Container,
   Banner,
-  Avatar, 
-  ProfileData, 
+  Avatar,
+  ProfileData,
   LocationIcon,
   CakeIcon,
   Fallowage,
   EditButton
 } from './styles';
+
+import Feed from '../Feed'
 
 const ProfilePage: React.FC = () => {
   return (

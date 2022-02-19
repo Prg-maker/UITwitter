@@ -12,7 +12,7 @@ const Layout: React.FC = () => {
         {/*<MenuBar/>*/}
         <Main/>
         {/*<SideBar/>*/}
-        
+
       </Wrapper>
     </Container>
   )
