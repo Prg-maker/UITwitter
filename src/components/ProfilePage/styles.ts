@@ -1,12 +1,12 @@
-import styled , {css} from 'styled-components'
-import {LocationOn , Cake } from '../../styles/icons'
+import styled, { css } from 'styled-components'
+import { LocationOn, Cake } from '../../styles/icons'
 import Button from '../Button'
 
 
-export const Container  = styled.div`
+export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  
+
   max-height: 100%;
   overflow-y: auto;
 
@@ -48,7 +48,7 @@ export const Avatar = styled.div`
   bottom: max(-60px , -10vw);
   left: 15px;
 
-` 
+`
 export const ProfileData = styled.div`
   padding: min(cal(10vw + 7px) 67px ) 16px 0 ;
 
@@ -72,7 +72,7 @@ export const ProfileData = styled.div`
   >p{
     font-size: 15px;
     margin-top: 11px;
-    
+
 
     >a{
       text-decoration: none;
@@ -91,7 +91,7 @@ export const ProfileData = styled.div`
       font-size:15px ;
       color: var(--gray);
 
-      
+
 
 
       >svg{
@@ -100,14 +100,14 @@ export const ProfileData = styled.div`
       }
     }
   }
-` 
+`
 
 
 
 
 export const Fallowage = styled.div`
   display: flex;
-  
+
 
   >span{
     font-size: 15px;
